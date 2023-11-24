@@ -6,16 +6,17 @@
         <va-card-content>
           <div class="grid grid-cols-12 gap-6">
             <div class="flex md:col-span-4 sm:col-span-6 col-span-12">
-              <va-date-input v-model="dateInput.range" :label="'Fecha de prestamo'" mode="range" clearable />
+              <va-date-input  color="#ff842b" v-model="dateInput.range" :label="'Fecha de prestamo'" mode="range" clearable />
             </div>
             <div class="flex md:col-span-4 sm:col-span-6 col-span-12">
-              <va-time-input :label="'Hora de prestamo'" v-model="dateInput.simple" />
+              <va-time-input  color="#ff842b" :label="'Hora de prestamo'" v-model="dateInput.simple" />
             </div>
             <div class="flex md:col-span-4 sm:col-span-6 col-span-12">
-              <va-time-input :label="'Hora de devolucion'" v-model="dateInput.simple2" />
+              <va-time-input  color="#ff842b" :label="'Hora de devolucion'" v-model="dateInput.simple2" />
             </div>
             <div class="flex md:col-span-6">
               <va-select
+              color="#ff842b"
                 v-model="tipo"
                 :label="'tipo de equipo'"
                 text-by="descripcion"
@@ -24,7 +25,7 @@
               />
             </div>
             <div class="flex md:col-span-6">
-              <va-input v-model="cantidad" :label="'Cantidad de equipo'" type="number" />
+              <va-input color="#ff842b" v-model="cantidad" :label="'Cantidad de equipo'" type="number" />
             </div>
           </div>
           <div class="flex justify-center mt-4">
