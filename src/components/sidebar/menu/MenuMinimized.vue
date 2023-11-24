@@ -83,11 +83,8 @@
     &__children {
       max-height: 60vh;
       overflow-y: auto;
-      overflow-x: visible;
       width: 16rem;
-      color: var(--va-gray);
-      background: var(--va-white, #1F262F);
-      box-shadow: var(--va-box-shadow);
+      background: var(--va-white, #fff);
     }
   }
 
